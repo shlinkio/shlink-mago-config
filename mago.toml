@@ -7,7 +7,6 @@ space-before-arrow-function-parameter-list-parenthesis = true
 break-promoted-properties-list = false
 parameter-attribute-on-new-line = false
 preserve-breaking-member-access-chain = true
-preserve-breaking-member-access-chain-first-method-on-same-line = true
 preserve-breaking-argument-list = true
 preserve-breaking-array-like = true
 preserve-breaking-parameter-list = true
