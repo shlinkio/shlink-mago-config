@@ -1,0 +1,7 @@
+{
+    "name": "shlinkio/shlink-mago-config",
+    "description": "Reusable shared Mago configuration for Shlink PHP projects",
+    "type": "library",
+    "license": "MIT",
+    "require": {}
+}
