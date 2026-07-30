@@ -19,6 +19,7 @@ preserve-redundant-logical-binary-expression-parentheses = true
 integrations = ["phpunit"]
 
 [linter.rules]
+no-redundant-use = { level = "error" }
 prefer-static-closure = { level = "warning" }
 array-style = { level = "warning" }
 prefer-early-continue = { max_allowed_statements = 2 }
