@@ -23,9 +23,9 @@ no-redundant-use = { level = "error" }
 prefer-static-closure = { level = "warning" }
 array-style = { level = "warning" }
 prefer-early-continue = { max_allowed_statements = 2 }
-no-fully-qualified-global-class-like = { enabled = true, level = "warning" }
-no-fully-qualified-global-constant = { enabled = true, level = "warning" }
-no-fully-qualified-global-function = { enabled = true, level = "warning" }
+no-fully-qualified-global-class-like = { enabled = true, level = "error" }
+no-fully-qualified-global-constant = { enabled = true, level = "error" }
+no-fully-qualified-global-function = { enabled = true, level = "error" }
 ambiguous-constant-access = { enabled = true, level = "warning" }
 ambiguous-function-call = { enabled = true, level = "warning" }
 
@@ -64,7 +64,7 @@ allow-possibly-undefined-array-keys = true
 check-throws = false
 unchecked-exceptions = ["Error", "LogicException"]
 unchecked-exception-classes = []
-check-missing-override = false
+check-missing-override = true
 find-unused-parameters = false
 strict-list-index-checks = false
 strict-array-index-existence = false
